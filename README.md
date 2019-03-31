@@ -1,6 +1,6 @@
 # AI for Healthcare Hackathon 2019
-# Team: HelloKitty
-# Location: NYC
+**Team: HelloKitty**   
+**Location: NYC**    
 
 ## psLove Challenge
 Using AI, predict when an upcoming period will most likely to start next for a given female user, helping women to predict fertile window and predict symptoms and correlations. The datasets can be downloaded [here](https://docs.google.com/forms/d/e/1FAIpQLSdcWrbhRqY6W2PE_uq0xLHTpITA0G_EhCxqS7TWN9JIgKKObA/viewform).
