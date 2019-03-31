@@ -1,8 +1,9 @@
-# HelloKitty
-AI for Healthcare Hackathon 2019
+# AI for Healthcare Hackathon 2019
+# Team: HelloKitty
+# Location: NYC
 
 ## psLove Challenge
-Using AI, predict when an upcoming period will most likely to start next for a given female user, helping women to predict fertile window and predict symptoms and correlations.
+Using AI, predict when an upcoming period will most likely to start next for a given female user, helping women to predict fertile window and predict symptoms and correlations. The datasets can be downloaded [here](https://docs.google.com/forms/d/e/1FAIpQLSdcWrbhRqY6W2PE_uq0xLHTpITA0G_EhCxqS7TWN9JIgKKObA/viewform).
 
 ## Pipeline:
 
@@ -26,4 +27,4 @@ Result showed that sore and headache are likely to happen in or after period, wh
 
 ### 3. [Prediction](https://github.com/Floccinaucinibilipilification/HelloKitty/blob/master/HelloKitty.ipynb) 
 
-We calculated the periods lengths from previous records by continous records. We then used the records from the past 3 months to predict the next period starting date. Records with length > 50 were identified as missing one period record between, and were not included in prediction.
+We calculated the period length of all the records. We then used the records from the past 3 months to predict the next period starting date. Period with cycle length > 50 days were considered as missing one period record and were not included in our consideration. We used user with id=1133 for illustration because this user has the largest amount of records. The same method can be applied to other users.
